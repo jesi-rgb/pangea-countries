@@ -2,6 +2,10 @@
   "name": "pangea-countries",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run server.ts",
+    "dev": "bun run server.ts"
+  },
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"
