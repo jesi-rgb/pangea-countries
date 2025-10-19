@@ -33,6 +33,10 @@ function findCountryByName(countries: CountryProperties[], countryName: string):
 	});
 }
 
+function findCountryById(countries: CountryProperties[], countryId: string): CountryProperties | undefined {
+	return countries.find(c => c.adm0_a3 === countryId.toUpperCase());
+}
+
 export async function onRequest(context: { request: Request }): Promise<Response> {
 	const url = new URL(context.request.url);
 	const pathname = url.pathname;
@@ -56,6 +60,20 @@ export async function onRequest(context: { request: Request }): Promise<Response
 		if (pathname === "/country_names" && context.request.method === "GET") {
 			const names = getCountryNames(data);
 			return Response.json(names, { headers: corsHeaders });
+		}
+
+		if (pathname.startsWith("/country/") && context.request.method === "GET") {
+			const countryId = pathname.slice(9);
+			const targetCountry = findCountryById(data, countryId);
+
+			if (!targetCountry) {
+				return Response.json(
+					{ error: "Country not found" },
+					{ status: 404, headers: corsHeaders }
+				);
+			}
+
+			return Response.json(targetCountry, { headers: corsHeaders });
 		}
 
 		if (pathname.startsWith("/info/") && context.request.method === "GET") {
