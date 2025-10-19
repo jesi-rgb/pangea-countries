@@ -4,11 +4,13 @@
   "type": "module",
   "scripts": {
     "start": "bun run server.ts",
-    "dev": "bun run server.ts"
+    "dev": "bun run server.ts",
+    "deploy": "wrangler pages deploy"
   },
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "wrangler": "^4.43.0"
   },
   "peerDependencies": {
     "typescript": "^5"
