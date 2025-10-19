@@ -42,22 +42,8 @@ function findCountryByName(countries: CountryProperties[], countryName: string):
 	});
 }
 
-// Get country names
-function getCountryNames(countries: Country[]): CountryName[] {
-	return countries.map(country => ({
-		name_long: country.properties.name_long,
-		continent: country.properties.region_un,
-	}));
-}
-
-// Find country by name
-function findCountryByName(countries: Country[], countryName: string): Country | undefined {
-	return countries.find(c => {
-		const normalizedName = removeAccents(
-			c.properties.name_long.replace(/\s/g, "").replace(/'/g, "")
-		).toLowerCase();
-		return normalizedName === countryName.toLowerCase();
-	});
+function findCountryById(countries: CountryProperties[], countryId: string): CountryProperties | undefined {
+	return countries.find(c => c.adm0_a3 === countryId.toUpperCase());
 }
 
 // Create server
@@ -90,6 +76,21 @@ const server = Bun.serve({
 			if (pathname === "/country_names" && req.method === "GET") {
 				const names = getCountryNames(data);
 				return Response.json(names, { headers: corsHeaders });
+			}
+
+			// Route: /country/<id>
+			if (pathname.startsWith("/country/") && req.method === "GET") {
+				const countryId = pathname.slice(9);
+				const targetCountry = findCountryById(data, countryId);
+
+				if (!targetCountry) {
+					return Response.json(
+						{ error: "Country not found" },
+						{ status: 404, headers: corsHeaders }
+					);
+				}
+
+				return Response.json(targetCountry, { headers: corsHeaders });
 			}
 
 			// Route: /info/<country>
