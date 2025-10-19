@@ -1,0 +1,2482 @@
+[
+  {
+    "name": "Papua New Guinea",
+    "name_long": "Papua New Guinea",
+    "pop_est": 8776109,
+    "adm0_a3": "PNG",
+    "region_un": "Oceania",
+    "subregion": "Melanesia",
+    "label_x": 143.910216,
+    "label_y": -5.695285
+  },
+  {
+    "name": "Australia",
+    "name_long": "Australia",
+    "pop_est": 25364307,
+    "adm0_a3": "AUS",
+    "region_un": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "label_x": 134.04972,
+    "label_y": -24.129522
+  },
+  {
+    "name": "Fiji",
+    "name_long": "Fiji",
+    "pop_est": 889953,
+    "adm0_a3": "FJI",
+    "region_un": "Oceania",
+    "subregion": "Melanesia",
+    "label_x": 177.975427,
+    "label_y": -17.826099
+  },
+  {
+    "name": "New Zealand",
+    "name_long": "New Zealand",
+    "pop_est": 4917000,
+    "adm0_a3": "NZL",
+    "region_un": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "label_x": 172.787,
+    "label_y": -39.759
+  },
+  {
+    "name": "New Caledonia",
+    "name_long": "New Caledonia",
+    "pop_est": 287800,
+    "adm0_a3": "NCL",
+    "region_un": "Oceania",
+    "subregion": "Melanesia",
+    "label_x": 165.084004,
+    "label_y": -21.064697
+  },
+  {
+    "name": "Pitcairn Is.",
+    "name_long": "Pitcairn Islands",
+    "pop_est": 54,
+    "adm0_a3": "PCN",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": -128.317536,
+    "label_y": -24.364576
+  },
+  {
+    "name": "Fr. Polynesia",
+    "name_long": "French Polynesia",
+    "pop_est": 279287,
+    "adm0_a3": "PYF",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": -149.46157,
+    "label_y": -17.628081
+  },
+  {
+    "name": "Kiribati",
+    "name_long": "Kiribati",
+    "pop_est": 117606,
+    "adm0_a3": "KIR",
+    "region_un": "Oceania",
+    "subregion": "Micronesia",
+    "label_x": -157.384577,
+    "label_y": 1.820437
+  },
+  {
+    "name": "Marshall Is.",
+    "name_long": "Marshall Islands",
+    "pop_est": 58791,
+    "adm0_a3": "MHL",
+    "region_un": "Oceania",
+    "subregion": "Micronesia",
+    "label_x": 171.193609,
+    "label_y": 7.082568
+  },
+  {
+    "name": "Norfolk Island",
+    "name_long": "Norfolk Island",
+    "pop_est": 2169,
+    "adm0_a3": "NFK",
+    "region_un": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "label_x": 167.954531,
+    "label_y": -29.033042
+  },
+  {
+    "name": "Cook Is.",
+    "name_long": "Cook Islands",
+    "pop_est": 17459,
+    "adm0_a3": "COK",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": -159.785675,
+    "label_y": -21.215993
+  },
+  {
+    "name": "Tonga",
+    "name_long": "Tonga",
+    "pop_est": 104494,
+    "adm0_a3": "TON",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": -175.163014,
+    "label_y": -21.210026
+  },
+  {
+    "name": "Wallis and Futuna Is.",
+    "name_long": "Wallis and Futuna Islands",
+    "pop_est": 11558,
+    "adm0_a3": "WLF",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": -178.137436,
+    "label_y": -14.286415
+  },
+  {
+    "name": "Samoa",
+    "name_long": "Samoa",
+    "pop_est": 197097,
+    "adm0_a3": "WSM",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": -172.438241,
+    "label_y": -13.639139
+  },
+  {
+    "name": "Solomon Is.",
+    "name_long": "Solomon Islands",
+    "pop_est": 669823,
+    "adm0_a3": "SLB",
+    "region_un": "Oceania",
+    "subregion": "Melanesia",
+    "label_x": 159.170468,
+    "label_y": -8.029548
+  },
+  {
+    "name": "Tuvalu",
+    "name_long": "Tuvalu",
+    "pop_est": 11646,
+    "adm0_a3": "TUV",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": 179.209587,
+    "label_y": -8.513717
+  },
+  {
+    "name": "Nauru",
+    "name_long": "Nauru",
+    "pop_est": 12581,
+    "adm0_a3": "NRU",
+    "region_un": "Oceania",
+    "subregion": "Micronesia",
+    "label_x": 166.932644,
+    "label_y": -0.520261
+  },
+  {
+    "name": "Micronesia",
+    "name_long": "Federated States of Micronesia",
+    "pop_est": 113815,
+    "adm0_a3": "FSM",
+    "region_un": "Oceania",
+    "subregion": "Micronesia",
+    "label_x": 158.234019,
+    "label_y": 6.887553
+  },
+  {
+    "name": "Vanuatu",
+    "name_long": "Vanuatu",
+    "pop_est": 299882,
+    "adm0_a3": "VUT",
+    "region_un": "Oceania",
+    "subregion": "Melanesia",
+    "label_x": 166.908762,
+    "label_y": -15.37153
+  },
+  {
+    "name": "Niue",
+    "name_long": "Niue",
+    "pop_est": 1620,
+    "adm0_a3": "NIU",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": -169.862565,
+    "label_y": -19.045956
+  },
+  {
+    "name": "American Samoa",
+    "name_long": "American Samoa",
+    "pop_est": 55312,
+    "adm0_a3": "ASM",
+    "region_un": "Oceania",
+    "subregion": "Polynesia",
+    "label_x": -170.747153,
+    "label_y": -14.32671
+  },
+  {
+    "name": "Palau",
+    "name_long": "Palau",
+    "pop_est": 18008,
+    "adm0_a3": "PLW",
+    "region_un": "Oceania",
+    "subregion": "Micronesia",
+    "label_x": 134.580157,
+    "label_y": 7.518252
+  },
+  {
+    "name": "Guam",
+    "name_long": "Guam",
+    "pop_est": 167294,
+    "adm0_a3": "GUM",
+    "region_un": "Oceania",
+    "subregion": "Micronesia",
+    "label_x": 144.703614,
+    "label_y": 13.354173
+  },
+  {
+    "name": "N. Mariana Is.",
+    "name_long": "Northern Mariana Islands",
+    "pop_est": 57216,
+    "adm0_a3": "MNP",
+    "region_un": "Oceania",
+    "subregion": "Micronesia",
+    "label_x": 145.734397,
+    "label_y": 15.188188
+  },
+  {
+    "name": "Coral Sea Is.",
+    "name_long": "Coral Sea Islands",
+    "pop_est": 4,
+    "adm0_a3": "CSI",
+    "region_un": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "label_x": 154.390595,
+    "label_y": -21.029311
+  },
+  {
+    "name": "Ashmore and Cartier Is.",
+    "name_long": "Ashmore and Cartier Islands",
+    "pop_est": 0,
+    "adm0_a3": "ATC",
+    "region_un": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "label_x": 123.586368,
+    "label_y": -12.432571
+  },
+  {
+    "name": "France",
+    "name_long": "France",
+    "pop_est": 67059887,
+    "adm0_a3": "FRA",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 2.552275,
+    "label_y": 46.696113
+  },
+  {
+    "name": "Ukraine",
+    "name_long": "Ukraine",
+    "pop_est": 44385155,
+    "adm0_a3": "UKR",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 32.140865,
+    "label_y": 49.724739
+  },
+  {
+    "name": "Belarus",
+    "name_long": "Belarus",
+    "pop_est": 9466856,
+    "adm0_a3": "BLR",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 28.417701,
+    "label_y": 53.821888
+  },
+  {
+    "name": "Lithuania",
+    "name_long": "Lithuania",
+    "pop_est": 2786844,
+    "adm0_a3": "LTU",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": 24.089932,
+    "label_y": 55.103703
+  },
+  {
+    "name": "Russia",
+    "name_long": "Russian Federation",
+    "pop_est": 144373535,
+    "adm0_a3": "RUS",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 44.686469,
+    "label_y": 58.249357
+  },
+  {
+    "name": "Czechia",
+    "name_long": "Czech Republic",
+    "pop_est": 10669709,
+    "adm0_a3": "CZE",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 15.377555,
+    "label_y": 49.882364
+  },
+  {
+    "name": "Germany",
+    "name_long": "Germany",
+    "pop_est": 83132799,
+    "adm0_a3": "DEU",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 9.678348,
+    "label_y": 50.961733
+  },
+  {
+    "name": "Estonia",
+    "name_long": "Estonia",
+    "pop_est": 1326590,
+    "adm0_a3": "EST",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": 25.867126,
+    "label_y": 58.724865
+  },
+  {
+    "name": "Latvia",
+    "name_long": "Latvia",
+    "pop_est": 1912789,
+    "adm0_a3": "LVA",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": 25.458723,
+    "label_y": 57.066872
+  },
+  {
+    "name": "Norway",
+    "name_long": "Norway",
+    "pop_est": 5347896,
+    "adm0_a3": "NOR",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": 9.679975,
+    "label_y": 61.357092
+  },
+  {
+    "name": "Sweden",
+    "name_long": "Sweden",
+    "pop_est": 10285453,
+    "adm0_a3": "SWE",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": 19.01705,
+    "label_y": 65.85918
+  },
+  {
+    "name": "Finland",
+    "name_long": "Finland",
+    "pop_est": 5520314,
+    "adm0_a3": "FIN",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": 27.276449,
+    "label_y": 63.252361
+  },
+  {
+    "name": "Luxembourg",
+    "name_long": "Luxembourg",
+    "pop_est": 619896,
+    "adm0_a3": "LUX",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 6.07762,
+    "label_y": 49.733732
+  },
+  {
+    "name": "Belgium",
+    "name_long": "Belgium",
+    "pop_est": 11484055,
+    "adm0_a3": "BEL",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 4.800448,
+    "label_y": 50.785392
+  },
+  {
+    "name": "North Macedonia",
+    "name_long": "North Macedonia",
+    "pop_est": 2083459,
+    "adm0_a3": "MKD",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 21.555839,
+    "label_y": 41.558223
+  },
+  {
+    "name": "Albania",
+    "name_long": "Albania",
+    "pop_est": 2854191,
+    "adm0_a3": "ALB",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 20.11384,
+    "label_y": 40.654855
+  },
+  {
+    "name": "Kosovo",
+    "name_long": "Kosovo",
+    "pop_est": 1794248,
+    "adm0_a3": "KOS",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 20.860719,
+    "label_y": 42.593587
+  },
+  {
+    "name": "Spain",
+    "name_long": "Spain",
+    "pop_est": 47076781,
+    "adm0_a3": "ESP",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": -3.464718,
+    "label_y": 40.090953
+  },
+  {
+    "name": "Denmark",
+    "name_long": "Denmark",
+    "pop_est": 5818553,
+    "adm0_a3": "DNK",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": 9.018163,
+    "label_y": 55.966965
+  },
+  {
+    "name": "Romania",
+    "name_long": "Romania",
+    "pop_est": 19356544,
+    "adm0_a3": "ROU",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 24.972624,
+    "label_y": 45.733237
+  },
+  {
+    "name": "Hungary",
+    "name_long": "Hungary",
+    "pop_est": 9769949,
+    "adm0_a3": "HUN",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 19.447867,
+    "label_y": 47.086841
+  },
+  {
+    "name": "Slovakia",
+    "name_long": "Slovakia",
+    "pop_est": 5454073,
+    "adm0_a3": "SVK",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 19.049868,
+    "label_y": 48.734044
+  },
+  {
+    "name": "Poland",
+    "name_long": "Poland",
+    "pop_est": 37970874,
+    "adm0_a3": "POL",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 19.490468,
+    "label_y": 51.990316
+  },
+  {
+    "name": "Ireland",
+    "name_long": "Ireland",
+    "pop_est": 4941444,
+    "adm0_a3": "IRL",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": -7.798588,
+    "label_y": 53.078726
+  },
+  {
+    "name": "United Kingdom",
+    "name_long": "United Kingdom",
+    "pop_est": 66834405,
+    "adm0_a3": "GBR",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": -2.116346,
+    "label_y": 54.402739
+  },
+  {
+    "name": "Greece",
+    "name_long": "Greece",
+    "pop_est": 10716322,
+    "adm0_a3": "GRC",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 21.72568,
+    "label_y": 39.492763
+  },
+  {
+    "name": "Austria",
+    "name_long": "Austria",
+    "pop_est": 8877067,
+    "adm0_a3": "AUT",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 14.130515,
+    "label_y": 47.518859
+  },
+  {
+    "name": "Italy",
+    "name_long": "Italy",
+    "pop_est": 60297396,
+    "adm0_a3": "ITA",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 11.076907,
+    "label_y": 44.732482
+  },
+  {
+    "name": "Switzerland",
+    "name_long": "Switzerland",
+    "pop_est": 8574832,
+    "adm0_a3": "CHE",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 7.463965,
+    "label_y": 46.719114
+  },
+  {
+    "name": "Netherlands",
+    "name_long": "Netherlands",
+    "pop_est": 17332850,
+    "adm0_a3": "NLD",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 5.61144,
+    "label_y": 52.422211
+  },
+  {
+    "name": "Liechtenstein",
+    "name_long": "Liechtenstein",
+    "pop_est": 38019,
+    "adm0_a3": "LIE",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 9.559439,
+    "label_y": 47.111405
+  },
+  {
+    "name": "Serbia",
+    "name_long": "Serbia",
+    "pop_est": 6944975,
+    "adm0_a3": "SRB",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 20.787989,
+    "label_y": 44.189919
+  },
+  {
+    "name": "Croatia",
+    "name_long": "Croatia",
+    "pop_est": 4067500,
+    "adm0_a3": "HRV",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 16.37241,
+    "label_y": 45.805799
+  },
+  {
+    "name": "Slovenia",
+    "name_long": "Slovenia",
+    "pop_est": 2087946,
+    "adm0_a3": "SVN",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 14.915312,
+    "label_y": 46.06076
+  },
+  {
+    "name": "Bulgaria",
+    "name_long": "Bulgaria",
+    "pop_est": 6975761,
+    "adm0_a3": "BGR",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 25.15709,
+    "label_y": 42.508785
+  },
+  {
+    "name": "San Marino",
+    "name_long": "San Marino",
+    "pop_est": 33860,
+    "adm0_a3": "SMR",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 12.441206,
+    "label_y": 43.933916
+  },
+  {
+    "name": "Monaco",
+    "name_long": "Monaco",
+    "pop_est": 38964,
+    "adm0_a3": "MCO",
+    "region_un": "Europe",
+    "subregion": "Western Europe",
+    "label_x": 7.398291,
+    "label_y": 43.739652
+  },
+  {
+    "name": "Andorra",
+    "name_long": "Andorra",
+    "pop_est": 77142,
+    "adm0_a3": "AND",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 1.539409,
+    "label_y": 42.547643
+  },
+  {
+    "name": "Montenegro",
+    "name_long": "Montenegro",
+    "pop_est": 622137,
+    "adm0_a3": "MNE",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 19.143727,
+    "label_y": 42.803101
+  },
+  {
+    "name": "Bosnia and Herz.",
+    "name_long": "Bosnia and Herzegovina",
+    "pop_est": 3301000,
+    "adm0_a3": "BIH",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 18.06841,
+    "label_y": 44.091051
+  },
+  {
+    "name": "Portugal",
+    "name_long": "Portugal",
+    "pop_est": 10269417,
+    "adm0_a3": "PRT",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": -8.271754,
+    "label_y": 39.606675
+  },
+  {
+    "name": "Moldova",
+    "name_long": "Moldova",
+    "pop_est": 2657637,
+    "adm0_a3": "MDA",
+    "region_un": "Europe",
+    "subregion": "Eastern Europe",
+    "label_x": 28.487904,
+    "label_y": 47.434999
+  },
+  {
+    "name": "Gibraltar",
+    "name_long": "Gibraltar",
+    "pop_est": 33701,
+    "adm0_a3": "GIB",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": -5.3467,
+    "label_y": 36.129426
+  },
+  {
+    "name": "Vatican",
+    "name_long": "Vatican",
+    "pop_est": 825,
+    "adm0_a3": "VAT",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 12.453418,
+    "label_y": 41.903323
+  },
+  {
+    "name": "Iceland",
+    "name_long": "Iceland",
+    "pop_est": 361313,
+    "adm0_a3": "ISL",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": -18.673711,
+    "label_y": 64.779286
+  },
+  {
+    "name": "Malta",
+    "name_long": "Malta",
+    "pop_est": 502653,
+    "adm0_a3": "MLT",
+    "region_un": "Europe",
+    "subregion": "Southern Europe",
+    "label_x": 14.433005,
+    "label_y": 35.892886
+  },
+  {
+    "name": "Jersey",
+    "name_long": "Jersey",
+    "pop_est": 107800,
+    "adm0_a3": "JEY",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": -2.090146,
+    "label_y": 49.220808
+  },
+  {
+    "name": "Guernsey",
+    "name_long": "Guernsey",
+    "pop_est": 62792,
+    "adm0_a3": "GGY",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": -2.561736,
+    "label_y": 49.463533
+  },
+  {
+    "name": "Isle of Man",
+    "name_long": "Isle of Man",
+    "pop_est": 84584,
+    "adm0_a3": "IMN",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": -4.530069,
+    "label_y": 54.220833
+  },
+  {
+    "name": "Åland",
+    "name_long": "Åland Islands",
+    "pop_est": 29884,
+    "adm0_a3": "ALD",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": 19.869671,
+    "label_y": 60.156467
+  },
+  {
+    "name": "Faeroe Is.",
+    "name_long": "Faeroe Islands",
+    "pop_est": 48678,
+    "adm0_a3": "FRO",
+    "region_un": "Europe",
+    "subregion": "Northern Europe",
+    "label_x": -7.058429,
+    "label_y": 62.185604
+  },
+  {
+    "name": "Ethiopia",
+    "name_long": "Ethiopia",
+    "pop_est": 112078730,
+    "adm0_a3": "ETH",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 39.0886,
+    "label_y": 8.032795
+  },
+  {
+    "name": "S. Sudan",
+    "name_long": "South Sudan",
+    "pop_est": 11062113,
+    "adm0_a3": "SDS",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 30.390151,
+    "label_y": 7.230477
+  },
+  {
+    "name": "Somalia",
+    "name_long": "Somalia",
+    "pop_est": 10192317.3,
+    "adm0_a3": "SOM",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 45.19238,
+    "label_y": 3.568925
+  },
+  {
+    "name": "Kenya",
+    "name_long": "Kenya",
+    "pop_est": 52573973,
+    "adm0_a3": "KEN",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 37.907632,
+    "label_y": 0.549043
+  },
+  {
+    "name": "Malawi",
+    "name_long": "Malawi",
+    "pop_est": 18628747,
+    "adm0_a3": "MWI",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 33.608082,
+    "label_y": -13.386737
+  },
+  {
+    "name": "Tanzania",
+    "name_long": "Tanzania",
+    "pop_est": 58005463,
+    "adm0_a3": "TZA",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 34.959183,
+    "label_y": -6.051866
+  },
+  {
+    "name": "Somaliland",
+    "name_long": "Somaliland",
+    "pop_est": 5096159,
+    "adm0_a3": "SOL",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 46.731595,
+    "label_y": 9.443889
+  },
+  {
+    "name": "Morocco",
+    "name_long": "Morocco",
+    "pop_est": 36471769,
+    "adm0_a3": "MAR",
+    "region_un": "Africa",
+    "subregion": "Northern Africa",
+    "label_x": -7.187296,
+    "label_y": 31.650723
+  },
+  {
+    "name": "W. Sahara",
+    "name_long": "Western Sahara",
+    "pop_est": 603253,
+    "adm0_a3": "SAH",
+    "region_un": "Africa",
+    "subregion": "Northern Africa",
+    "label_x": -12.630304,
+    "label_y": 23.967592
+  },
+  {
+    "name": "Congo",
+    "name_long": "Republic of the Congo",
+    "pop_est": 5380508,
+    "adm0_a3": "COG",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 15.9005,
+    "label_y": 0.142331
+  },
+  {
+    "name": "Dem. Rep. Congo",
+    "name_long": "Democratic Republic of the Congo",
+    "pop_est": 86790567,
+    "adm0_a3": "COD",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 23.458829,
+    "label_y": -1.858167
+  },
+  {
+    "name": "Namibia",
+    "name_long": "Namibia",
+    "pop_est": 2494530,
+    "adm0_a3": "NAM",
+    "region_un": "Africa",
+    "subregion": "Southern Africa",
+    "label_x": 17.108166,
+    "label_y": -20.575298
+  },
+  {
+    "name": "South Africa",
+    "name_long": "South Africa",
+    "pop_est": 58558270,
+    "adm0_a3": "ZAF",
+    "region_un": "Africa",
+    "subregion": "Southern Africa",
+    "label_x": 23.665734,
+    "label_y": -29.708776
+  },
+  {
+    "name": "Libya",
+    "name_long": "Libya",
+    "pop_est": 6777452,
+    "adm0_a3": "LBY",
+    "region_un": "Africa",
+    "subregion": "Northern Africa",
+    "label_x": 18.011015,
+    "label_y": 26.638944
+  },
+  {
+    "name": "Tunisia",
+    "name_long": "Tunisia",
+    "pop_est": 11694719,
+    "adm0_a3": "TUN",
+    "region_un": "Africa",
+    "subregion": "Northern Africa",
+    "label_x": 9.007881,
+    "label_y": 33.687263
+  },
+  {
+    "name": "Zambia",
+    "name_long": "Zambia",
+    "pop_est": 17861030,
+    "adm0_a3": "ZMB",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 26.395298,
+    "label_y": -14.660804
+  },
+  {
+    "name": "Sierra Leone",
+    "name_long": "Sierra Leone",
+    "pop_est": 7813215,
+    "adm0_a3": "SLE",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -11.763677,
+    "label_y": 8.617449
+  },
+  {
+    "name": "Guinea",
+    "name_long": "Guinea",
+    "pop_est": 12771246,
+    "adm0_a3": "GIN",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -10.016402,
+    "label_y": 10.618516
+  },
+  {
+    "name": "Liberia",
+    "name_long": "Liberia",
+    "pop_est": 4937374,
+    "adm0_a3": "LBR",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -9.460379,
+    "label_y": 6.447177
+  },
+  {
+    "name": "Central African Rep.",
+    "name_long": "Central African Republic",
+    "pop_est": 4745185,
+    "adm0_a3": "CAF",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 20.906897,
+    "label_y": 6.989681
+  },
+  {
+    "name": "Sudan",
+    "name_long": "Sudan",
+    "pop_est": 42813238,
+    "adm0_a3": "SDN",
+    "region_un": "Africa",
+    "subregion": "Northern Africa",
+    "label_x": 29.260657,
+    "label_y": 16.330746
+  },
+  {
+    "name": "Djibouti",
+    "name_long": "Djibouti",
+    "pop_est": 973560,
+    "adm0_a3": "DJI",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 42.498825,
+    "label_y": 11.976343
+  },
+  {
+    "name": "Eritrea",
+    "name_long": "Eritrea",
+    "pop_est": 6081196,
+    "adm0_a3": "ERI",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 38.285566,
+    "label_y": 15.787401
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "name_long": "Côte d'Ivoire",
+    "pop_est": 25716544,
+    "adm0_a3": "CIV",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -5.568618,
+    "label_y": 7.49139
+  },
+  {
+    "name": "Mali",
+    "name_long": "Mali",
+    "pop_est": 19658031,
+    "adm0_a3": "MLI",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -2.038455,
+    "label_y": 18.692713
+  },
+  {
+    "name": "Senegal",
+    "name_long": "Senegal",
+    "pop_est": 16296364,
+    "adm0_a3": "SEN",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -14.778586,
+    "label_y": 15.138125
+  },
+  {
+    "name": "Nigeria",
+    "name_long": "Nigeria",
+    "pop_est": 200963599,
+    "adm0_a3": "NGA",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": 7.50322,
+    "label_y": 9.439799
+  },
+  {
+    "name": "Benin",
+    "name_long": "Benin",
+    "pop_est": 11801151,
+    "adm0_a3": "BEN",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": 2.352018,
+    "label_y": 10.324775
+  },
+  {
+    "name": "Angola",
+    "name_long": "Angola",
+    "pop_est": 31825295,
+    "adm0_a3": "AGO",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 17.984249,
+    "label_y": -12.182762
+  },
+  {
+    "name": "Botswana",
+    "name_long": "Botswana",
+    "pop_est": 2303697,
+    "adm0_a3": "BWA",
+    "region_un": "Africa",
+    "subregion": "Southern Africa",
+    "label_x": 24.179216,
+    "label_y": -22.102634
+  },
+  {
+    "name": "Zimbabwe",
+    "name_long": "Zimbabwe",
+    "pop_est": 14645468,
+    "adm0_a3": "ZWE",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 29.925444,
+    "label_y": -18.91164
+  },
+  {
+    "name": "Chad",
+    "name_long": "Chad",
+    "pop_est": 15946876,
+    "adm0_a3": "TCD",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 18.645041,
+    "label_y": 15.142959
+  },
+  {
+    "name": "Algeria",
+    "name_long": "Algeria",
+    "pop_est": 43053054,
+    "adm0_a3": "DZA",
+    "region_un": "Africa",
+    "subregion": "Northern Africa",
+    "label_x": 2.808241,
+    "label_y": 27.397406
+  },
+  {
+    "name": "Mozambique",
+    "name_long": "Mozambique",
+    "pop_est": 30366036,
+    "adm0_a3": "MOZ",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 37.83789,
+    "label_y": -13.94323
+  },
+  {
+    "name": "eSwatini",
+    "name_long": "Kingdom of eSwatini",
+    "pop_est": 1148130,
+    "adm0_a3": "SWZ",
+    "region_un": "Africa",
+    "subregion": "Southern Africa",
+    "label_x": 31.467264,
+    "label_y": -26.533676
+  },
+  {
+    "name": "Burundi",
+    "name_long": "Burundi",
+    "pop_est": 11530580,
+    "adm0_a3": "BDI",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 29.917086,
+    "label_y": -3.332836
+  },
+  {
+    "name": "Rwanda",
+    "name_long": "Rwanda",
+    "pop_est": 12626950,
+    "adm0_a3": "RWA",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 30.103894,
+    "label_y": -1.897196
+  },
+  {
+    "name": "Uganda",
+    "name_long": "Uganda",
+    "pop_est": 44269594,
+    "adm0_a3": "UGA",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 32.948555,
+    "label_y": 1.972589
+  },
+  {
+    "name": "Lesotho",
+    "name_long": "Lesotho",
+    "pop_est": 2125268,
+    "adm0_a3": "LSO",
+    "region_un": "Africa",
+    "subregion": "Southern Africa",
+    "label_x": 28.246639,
+    "label_y": -29.480158
+  },
+  {
+    "name": "Cameroon",
+    "name_long": "Cameroon",
+    "pop_est": 25876380,
+    "adm0_a3": "CMR",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 12.473488,
+    "label_y": 4.585041
+  },
+  {
+    "name": "Gabon",
+    "name_long": "Gabon",
+    "pop_est": 2172579,
+    "adm0_a3": "GAB",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 11.835939,
+    "label_y": -0.437739
+  },
+  {
+    "name": "Niger",
+    "name_long": "Niger",
+    "pop_est": 23310715,
+    "adm0_a3": "NER",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": 9.504356,
+    "label_y": 17.446195
+  },
+  {
+    "name": "Burkina Faso",
+    "name_long": "Burkina Faso",
+    "pop_est": 20321378,
+    "adm0_a3": "BFA",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -1.36388,
+    "label_y": 12.673048
+  },
+  {
+    "name": "Togo",
+    "name_long": "Togo",
+    "pop_est": 8082366,
+    "adm0_a3": "TGO",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": 1.058113,
+    "label_y": 8.80722
+  },
+  {
+    "name": "Ghana",
+    "name_long": "Ghana",
+    "pop_est": 30417856,
+    "adm0_a3": "GHA",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -1.036941,
+    "label_y": 7.717639
+  },
+  {
+    "name": "Guinea-Bissau",
+    "name_long": "Guinea-Bissau",
+    "pop_est": 1920922,
+    "adm0_a3": "GNB",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -14.52413,
+    "label_y": 12.163712
+  },
+  {
+    "name": "Egypt",
+    "name_long": "Egypt",
+    "pop_est": 100388073,
+    "adm0_a3": "EGY",
+    "region_un": "Africa",
+    "subregion": "Northern Africa",
+    "label_x": 29.445837,
+    "label_y": 26.186173
+  },
+  {
+    "name": "Mauritania",
+    "name_long": "Mauritania",
+    "pop_est": 4525696,
+    "adm0_a3": "MRT",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -9.740299,
+    "label_y": 19.587062
+  },
+  {
+    "name": "Eq. Guinea",
+    "name_long": "Equatorial Guinea",
+    "pop_est": 1355986,
+    "adm0_a3": "GNQ",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 8.9902,
+    "label_y": 2.333
+  },
+  {
+    "name": "Gambia",
+    "name_long": "The Gambia",
+    "pop_est": 2347706,
+    "adm0_a3": "GMB",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -14.998318,
+    "label_y": 13.641721
+  },
+  {
+    "name": "Bir Tawil",
+    "name_long": "Bir Tawil",
+    "pop_est": 0,
+    "adm0_a3": "BRT",
+    "region_un": "Africa",
+    "subregion": "Northern Africa",
+    "label_x": 33.673428,
+    "label_y": 21.860442
+  },
+  {
+    "name": "Madagascar",
+    "name_long": "Madagascar",
+    "pop_est": 26969307,
+    "adm0_a3": "MDG",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 46.704241,
+    "label_y": -18.628288
+  },
+  {
+    "name": "Comoros",
+    "name_long": "Comoros",
+    "pop_est": 850886,
+    "adm0_a3": "COM",
+    "region_un": "Africa",
+    "subregion": "Eastern Africa",
+    "label_x": 43.318094,
+    "label_y": -11.727683
+  },
+  {
+    "name": "São Tomé and Principe",
+    "name_long": "São Tomé and Principe",
+    "pop_est": 215056,
+    "adm0_a3": "STP",
+    "region_un": "Africa",
+    "subregion": "Middle Africa",
+    "label_x": 7.021,
+    "label_y": 0.9709
+  },
+  {
+    "name": "Cabo Verde",
+    "name_long": "Republic of Cabo Verde",
+    "pop_est": 549935,
+    "adm0_a3": "CPV",
+    "region_un": "Africa",
+    "subregion": "Western Africa",
+    "label_x": -23.639434,
+    "label_y": 15.074761
+  },
+  {
+    "name": "Costa Rica",
+    "name_long": "Costa Rica",
+    "pop_est": 5047561,
+    "adm0_a3": "CRI",
+    "region_un": "Americas",
+    "subregion": "Central America",
+    "label_x": -84.077922,
+    "label_y": 10.0651
+  },
+  {
+    "name": "Nicaragua",
+    "name_long": "Nicaragua",
+    "pop_est": 6545502,
+    "adm0_a3": "NIC",
+    "region_un": "Americas",
+    "subregion": "Central America",
+    "label_x": -85.069347,
+    "label_y": 12.670697
+  },
+  {
+    "name": "St-Martin",
+    "name_long": "Saint-Martin",
+    "pop_est": 38002,
+    "adm0_a3": "MAF",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -63.049399,
+    "label_y": 18.081302
+  },
+  {
+    "name": "Sint Maarten",
+    "name_long": "Sint Maarten",
+    "pop_est": 40733,
+    "adm0_a3": "SXM",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -63.070133,
+    "label_y": 18.04088
+  },
+  {
+    "name": "Haiti",
+    "name_long": "Haiti",
+    "pop_est": 11263077,
+    "adm0_a3": "HTI",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -72.224051,
+    "label_y": 19.263784
+  },
+  {
+    "name": "Dominican Rep.",
+    "name_long": "Dominican Republic",
+    "pop_est": 10738958,
+    "adm0_a3": "DOM",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -70.653998,
+    "label_y": 19.104137
+  },
+  {
+    "name": "El Salvador",
+    "name_long": "El Salvador",
+    "pop_est": 6453553,
+    "adm0_a3": "SLV",
+    "region_un": "Americas",
+    "subregion": "Central America",
+    "label_x": -88.890124,
+    "label_y": 13.685371
+  },
+  {
+    "name": "Guatemala",
+    "name_long": "Guatemala",
+    "pop_est": 16604026,
+    "adm0_a3": "GTM",
+    "region_un": "Americas",
+    "subregion": "Central America",
+    "label_x": -90.497134,
+    "label_y": 14.982133
+  },
+  {
+    "name": "USNB Guantanamo Bay",
+    "name_long": "US Naval Base Guantanamo Bay",
+    "pop_est": 6000,
+    "adm0_a3": "USG",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -75.117277,
+    "label_y": 19.918398
+  },
+  {
+    "name": "Cuba",
+    "name_long": "Cuba",
+    "pop_est": 11333483,
+    "adm0_a3": "CUB",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -77.975855,
+    "label_y": 21.334024
+  },
+  {
+    "name": "Honduras",
+    "name_long": "Honduras",
+    "pop_est": 9746117,
+    "adm0_a3": "HND",
+    "region_un": "Americas",
+    "subregion": "Central America",
+    "label_x": -86.887604,
+    "label_y": 14.794801
+  },
+  {
+    "name": "Mexico",
+    "name_long": "Mexico",
+    "pop_est": 127575529,
+    "adm0_a3": "MEX",
+    "region_un": "Americas",
+    "subregion": "Central America",
+    "label_x": -102.289448,
+    "label_y": 23.919988
+  },
+  {
+    "name": "Belize",
+    "name_long": "Belize",
+    "pop_est": 390353,
+    "adm0_a3": "BLZ",
+    "region_un": "Americas",
+    "subregion": "Central America",
+    "label_x": -88.712962,
+    "label_y": 17.202068
+  },
+  {
+    "name": "United States of America",
+    "name_long": "United States",
+    "pop_est": 328239523,
+    "adm0_a3": "USA",
+    "region_un": "Americas",
+    "subregion": "Northern America",
+    "label_x": -97.482602,
+    "label_y": 39.538479
+  },
+  {
+    "name": "Panama",
+    "name_long": "Panama",
+    "pop_est": 4246439,
+    "adm0_a3": "PAN",
+    "region_un": "Americas",
+    "subregion": "Central America",
+    "label_x": -80.352106,
+    "label_y": 8.72198
+  },
+  {
+    "name": "Canada",
+    "name_long": "Canada",
+    "pop_est": 37589262,
+    "adm0_a3": "CAN",
+    "region_un": "Americas",
+    "subregion": "Northern America",
+    "label_x": -101.9107,
+    "label_y": 60.324287
+  },
+  {
+    "name": "Greenland",
+    "name_long": "Greenland",
+    "pop_est": 56225,
+    "adm0_a3": "GRL",
+    "region_un": "Americas",
+    "subregion": "Northern America",
+    "label_x": -39.335251,
+    "label_y": 74.319387
+  },
+  {
+    "name": "Curaçao",
+    "name_long": "Curaçao",
+    "pop_est": 157538,
+    "adm0_a3": "CUW",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -68.920578,
+    "label_y": 12.145039
+  },
+  {
+    "name": "Aruba",
+    "name_long": "Aruba",
+    "pop_est": 106314,
+    "adm0_a3": "ABW",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -69.972795,
+    "label_y": 12.5174
+  },
+  {
+    "name": "Bahamas",
+    "name_long": "Bahamas",
+    "pop_est": 389482,
+    "adm0_a3": "BHS",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -77.146688,
+    "label_y": 26.401789
+  },
+  {
+    "name": "Turks and Caicos Is.",
+    "name_long": "Turks and Caicos Islands",
+    "pop_est": 38191,
+    "adm0_a3": "TCA",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -71.752704,
+    "label_y": 21.81663
+  },
+  {
+    "name": "St. Pierre and Miquelon",
+    "name_long": "Saint Pierre and Miquelon",
+    "pop_est": 5997,
+    "adm0_a3": "SPM",
+    "region_un": "Americas",
+    "subregion": "Northern America",
+    "label_x": -56.332352,
+    "label_y": 47.040344
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "name_long": "Trinidad and Tobago",
+    "pop_est": 1394973,
+    "adm0_a3": "TTO",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -60.9184,
+    "label_y": 10.9989
+  },
+  {
+    "name": "Grenada",
+    "name_long": "Grenada",
+    "pop_est": 112003,
+    "adm0_a3": "GRD",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -61.680461,
+    "label_y": 12.113156
+  },
+  {
+    "name": "St. Vin. and Gren.",
+    "name_long": "Saint Vincent and the Grenadines",
+    "pop_est": 110589,
+    "adm0_a3": "VCT",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -61.3359,
+    "label_y": 13.0879
+  },
+  {
+    "name": "Barbados",
+    "name_long": "Barbados",
+    "pop_est": 287025,
+    "adm0_a3": "BRB",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -59.568966,
+    "label_y": 13.163709
+  },
+  {
+    "name": "Saint Lucia",
+    "name_long": "Saint Lucia",
+    "pop_est": 182790,
+    "adm0_a3": "LCA",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -60.980094,
+    "label_y": 13.892371
+  },
+  {
+    "name": "Dominica",
+    "name_long": "Dominica",
+    "pop_est": 71808,
+    "adm0_a3": "DMA",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -61.344958,
+    "label_y": 15.458829
+  },
+  {
+    "name": "U.S. Minor Outlying Is.",
+    "name_long": "United States Minor Outlying Islands",
+    "pop_est": 300,
+    "adm0_a3": "UMI",
+    "region_un": "Oceania",
+    "subregion": "Seven seas (open ocean)",
+    "label_x": 166.644535,
+    "label_y": 19.285663
+  },
+  {
+    "name": "Montserrat",
+    "name_long": "Montserrat",
+    "pop_est": 4649,
+    "adm0_a3": "MSR",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -62.188252,
+    "label_y": 16.73717
+  },
+  {
+    "name": "Antigua and Barb.",
+    "name_long": "Antigua and Barbuda",
+    "pop_est": 97118,
+    "adm0_a3": "ATG",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -61.790612,
+    "label_y": 17.352249
+  },
+  {
+    "name": "St. Kitts and Nevis",
+    "name_long": "Saint Kitts and Nevis",
+    "pop_est": 52834,
+    "adm0_a3": "KNA",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -62.757975,
+    "label_y": 17.336558
+  },
+  {
+    "name": "U.S. Virgin Is.",
+    "name_long": "United States Virgin Islands",
+    "pop_est": 106631,
+    "adm0_a3": "VIR",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -64.779172,
+    "label_y": 17.746706
+  },
+  {
+    "name": "St-Barthélemy",
+    "name_long": "Saint-Barthélemy",
+    "pop_est": 9961,
+    "adm0_a3": "BLM",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -62.833193,
+    "label_y": 17.901987
+  },
+  {
+    "name": "Puerto Rico",
+    "name_long": "Puerto Rico",
+    "pop_est": 3193694,
+    "adm0_a3": "PRI",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -66.481065,
+    "label_y": 18.234668
+  },
+  {
+    "name": "Anguilla",
+    "name_long": "Anguilla",
+    "pop_est": 14731,
+    "adm0_a3": "AIA",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -63.026361,
+    "label_y": 18.242979
+  },
+  {
+    "name": "British Virgin Is.",
+    "name_long": "British Virgin Islands",
+    "pop_est": 30030,
+    "adm0_a3": "VGB",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -64.63661,
+    "label_y": 18.426606
+  },
+  {
+    "name": "Jamaica",
+    "name_long": "Jamaica",
+    "pop_est": 2948279,
+    "adm0_a3": "JAM",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -77.318767,
+    "label_y": 18.137124
+  },
+  {
+    "name": "Cayman Is.",
+    "name_long": "Cayman Islands",
+    "pop_est": 64948,
+    "adm0_a3": "CYM",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -81.24055,
+    "label_y": 19.319862
+  },
+  {
+    "name": "Bermuda",
+    "name_long": "Bermuda",
+    "pop_est": 63918,
+    "adm0_a3": "BMU",
+    "region_un": "Americas",
+    "subregion": "Northern America",
+    "label_x": -64.763573,
+    "label_y": 32.296592
+  },
+  {
+    "name": "Bajo Nuevo Bank",
+    "name_long": "Bajo Nuevo Bank (Petrel Islands)",
+    "pop_est": 0,
+    "adm0_a3": "BJN",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -79.845836,
+    "label_y": 15.791588
+  },
+  {
+    "name": "Serranilla Bank",
+    "name_long": "Serranilla Bank",
+    "pop_est": 0,
+    "adm0_a3": "SER",
+    "region_un": "Americas",
+    "subregion": "Caribbean",
+    "label_x": -78.638239,
+    "label_y": 15.864308
+  },
+  {
+    "name": "Chile",
+    "name_long": "Chile",
+    "pop_est": 18952038,
+    "adm0_a3": "CHL",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -72.318871,
+    "label_y": -38.151771
+  },
+  {
+    "name": "Bolivia",
+    "name_long": "Bolivia",
+    "pop_est": 11513100,
+    "adm0_a3": "BOL",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -64.593433,
+    "label_y": -16.666015
+  },
+  {
+    "name": "Peru",
+    "name_long": "Peru",
+    "pop_est": 32510453,
+    "adm0_a3": "PER",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -72.90016,
+    "label_y": -12.976679
+  },
+  {
+    "name": "Argentina",
+    "name_long": "Argentina",
+    "pop_est": 44938712,
+    "adm0_a3": "ARG",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -64.173331,
+    "label_y": -33.501159
+  },
+  {
+    "name": "Suriname",
+    "name_long": "Suriname",
+    "pop_est": 581363,
+    "adm0_a3": "SUR",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -55.91094,
+    "label_y": 4.143987
+  },
+  {
+    "name": "Guyana",
+    "name_long": "Guyana",
+    "pop_est": 782766,
+    "adm0_a3": "GUY",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -58.942643,
+    "label_y": 5.124317
+  },
+  {
+    "name": "Brazil",
+    "name_long": "Brazil",
+    "pop_est": 211049527,
+    "adm0_a3": "BRA",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -49.55945,
+    "label_y": -12.098687
+  },
+  {
+    "name": "Uruguay",
+    "name_long": "Uruguay",
+    "pop_est": 3461734,
+    "adm0_a3": "URY",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -55.966942,
+    "label_y": -32.961127
+  },
+  {
+    "name": "Colombia",
+    "name_long": "Colombia",
+    "pop_est": 50339443,
+    "adm0_a3": "COL",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -73.174347,
+    "label_y": 3.373111
+  },
+  {
+    "name": "Ecuador",
+    "name_long": "Ecuador",
+    "pop_est": 17373662,
+    "adm0_a3": "ECU",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -78.188375,
+    "label_y": -1.259076
+  },
+  {
+    "name": "Paraguay",
+    "name_long": "Paraguay",
+    "pop_est": 7044636,
+    "adm0_a3": "PRY",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -60.146394,
+    "label_y": -21.674509
+  },
+  {
+    "name": "Brazilian I.",
+    "name_long": "Brazilian Island",
+    "pop_est": 0,
+    "adm0_a3": "BRI",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -57.623042,
+    "label_y": -30.187555
+  },
+  {
+    "name": "Venezuela",
+    "name_long": "Venezuela",
+    "pop_est": 28515829,
+    "adm0_a3": "VEN",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -64.599381,
+    "label_y": 7.182476
+  },
+  {
+    "name": "Southern Patagonian Ice Field",
+    "name_long": "Southern Patagonian Ice Field",
+    "pop_est": 0,
+    "adm0_a3": "SPI",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -73.31378,
+    "label_y": -49.511034
+  },
+  {
+    "name": "Falkland Is.",
+    "name_long": "Falkland Islands / Malvinas",
+    "pop_est": 3398,
+    "adm0_a3": "FLK",
+    "region_un": "Americas",
+    "subregion": "South America",
+    "label_x": -58.738602,
+    "label_y": -51.608913
+  },
+  {
+    "name": "Indonesia",
+    "name_long": "Indonesia",
+    "pop_est": 270625568,
+    "adm0_a3": "IDN",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 101.892949,
+    "label_y": -0.954404
+  },
+  {
+    "name": "Malaysia",
+    "name_long": "Malaysia",
+    "pop_est": 31949777,
+    "adm0_a3": "MYS",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 113.83708,
+    "label_y": 2.528667
+  },
+  {
+    "name": "Dhekelia",
+    "name_long": "Dhekelia",
+    "pop_est": 7850,
+    "adm0_a3": "ESB",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 33.790583,
+    "label_y": 35.011042
+  },
+  {
+    "name": "Cyprus",
+    "name_long": "Cyprus",
+    "pop_est": 1198575,
+    "adm0_a3": "CYP",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 33.084182,
+    "label_y": 34.913329
+  },
+  {
+    "name": "India",
+    "name_long": "India",
+    "pop_est": 1366417754,
+    "adm0_a3": "IND",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 79.358105,
+    "label_y": 22.686852
+  },
+  {
+    "name": "China",
+    "name_long": "China",
+    "pop_est": 1397715000,
+    "adm0_a3": "CHN",
+    "region_un": "Asia",
+    "subregion": "Eastern Asia",
+    "label_x": 106.337289,
+    "label_y": 32.498178
+  },
+  {
+    "name": "Israel",
+    "name_long": "Israel",
+    "pop_est": 9053300,
+    "adm0_a3": "ISR",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 34.847915,
+    "label_y": 30.911148
+  },
+  {
+    "name": "Palestine",
+    "name_long": "Palestine",
+    "pop_est": 4685306,
+    "adm0_a3": "PSX",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 35.291341,
+    "label_y": 32.047431
+  },
+  {
+    "name": "Lebanon",
+    "name_long": "Lebanon",
+    "pop_est": 6855713,
+    "adm0_a3": "LBN",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 35.992892,
+    "label_y": 34.133368
+  },
+  {
+    "name": "Syria",
+    "name_long": "Syria",
+    "pop_est": 17070135,
+    "adm0_a3": "SYR",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 38.277783,
+    "label_y": 35.006636
+  },
+  {
+    "name": "South Korea",
+    "name_long": "Republic of Korea",
+    "pop_est": 51709098,
+    "adm0_a3": "KOR",
+    "region_un": "Asia",
+    "subregion": "Eastern Asia",
+    "label_x": 128.129504,
+    "label_y": 36.384924
+  },
+  {
+    "name": "North Korea",
+    "name_long": "Dem. Rep. Korea",
+    "pop_est": 25666161,
+    "adm0_a3": "PRK",
+    "region_un": "Asia",
+    "subregion": "Eastern Asia",
+    "label_x": 126.444516,
+    "label_y": 39.885252
+  },
+  {
+    "name": "Bhutan",
+    "name_long": "Bhutan",
+    "pop_est": 763092,
+    "adm0_a3": "BTN",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 90.040294,
+    "label_y": 27.536685
+  },
+  {
+    "name": "Oman",
+    "name_long": "Oman",
+    "pop_est": 4974986,
+    "adm0_a3": "OMN",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 57.336553,
+    "label_y": 22.120427
+  },
+  {
+    "name": "Uzbekistan",
+    "name_long": "Uzbekistan",
+    "pop_est": 33580650,
+    "adm0_a3": "UZB",
+    "region_un": "Asia",
+    "subregion": "Central Asia",
+    "label_x": 64.005429,
+    "label_y": 41.693603
+  },
+  {
+    "name": "Kazakhstan",
+    "name_long": "Kazakhstan",
+    "pop_est": 18513930,
+    "adm0_a3": "KAZ",
+    "region_un": "Asia",
+    "subregion": "Central Asia",
+    "label_x": 68.685548,
+    "label_y": 49.054149
+  },
+  {
+    "name": "Tajikistan",
+    "name_long": "Tajikistan",
+    "pop_est": 9321018,
+    "adm0_a3": "TJK",
+    "region_un": "Asia",
+    "subregion": "Central Asia",
+    "label_x": 72.587276,
+    "label_y": 38.199835
+  },
+  {
+    "name": "Mongolia",
+    "name_long": "Mongolia",
+    "pop_est": 3225167,
+    "adm0_a3": "MNG",
+    "region_un": "Asia",
+    "subregion": "Eastern Asia",
+    "label_x": 104.150405,
+    "label_y": 45.997488
+  },
+  {
+    "name": "Vietnam",
+    "name_long": "Vietnam",
+    "pop_est": 96462106,
+    "adm0_a3": "VNM",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 105.387292,
+    "label_y": 21.715416
+  },
+  {
+    "name": "Cambodia",
+    "name_long": "Cambodia",
+    "pop_est": 16486542,
+    "adm0_a3": "KHM",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 104.50487,
+    "label_y": 12.647584
+  },
+  {
+    "name": "United Arab Emirates",
+    "name_long": "United Arab Emirates",
+    "pop_est": 9770529,
+    "adm0_a3": "ARE",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 54.547256,
+    "label_y": 23.466285
+  },
+  {
+    "name": "Georgia",
+    "name_long": "Georgia",
+    "pop_est": 3720382,
+    "adm0_a3": "GEO",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 43.735724,
+    "label_y": 41.870087
+  },
+  {
+    "name": "Azerbaijan",
+    "name_long": "Azerbaijan",
+    "pop_est": 10023318,
+    "adm0_a3": "AZE",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 47.210994,
+    "label_y": 40.402387
+  },
+  {
+    "name": "Turkey",
+    "name_long": "Turkey",
+    "pop_est": 83429615,
+    "adm0_a3": "TUR",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 34.508268,
+    "label_y": 39.345388
+  },
+  {
+    "name": "Laos",
+    "name_long": "Lao PDR",
+    "pop_est": 7169455,
+    "adm0_a3": "LAO",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 102.533912,
+    "label_y": 19.431821
+  },
+  {
+    "name": "Kyrgyzstan",
+    "name_long": "Kyrgyzstan",
+    "pop_est": 6456900,
+    "adm0_a3": "KGZ",
+    "region_un": "Asia",
+    "subregion": "Central Asia",
+    "label_x": 74.532637,
+    "label_y": 41.66854
+  },
+  {
+    "name": "Armenia",
+    "name_long": "Armenia",
+    "pop_est": 2957731,
+    "adm0_a3": "ARM",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 44.800564,
+    "label_y": 40.459077
+  },
+  {
+    "name": "Iraq",
+    "name_long": "Iraq",
+    "pop_est": 39309783,
+    "adm0_a3": "IRQ",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 43.26181,
+    "label_y": 33.09403
+  },
+  {
+    "name": "Iran",
+    "name_long": "Iran",
+    "pop_est": 82913906,
+    "adm0_a3": "IRN",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 54.931495,
+    "label_y": 32.166225
+  },
+  {
+    "name": "Qatar",
+    "name_long": "Qatar",
+    "pop_est": 2832067,
+    "adm0_a3": "QAT",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 51.143509,
+    "label_y": 25.237383
+  },
+  {
+    "name": "Saudi Arabia",
+    "name_long": "Saudi Arabia",
+    "pop_est": 34268528,
+    "adm0_a3": "SAU",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 44.6996,
+    "label_y": 23.806908
+  },
+  {
+    "name": "Pakistan",
+    "name_long": "Pakistan",
+    "pop_est": 216565318,
+    "adm0_a3": "PAK",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 68.545632,
+    "label_y": 29.328389
+  },
+  {
+    "name": "Thailand",
+    "name_long": "Thailand",
+    "pop_est": 69625582,
+    "adm0_a3": "THA",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 101.073198,
+    "label_y": 15.45974
+  },
+  {
+    "name": "Kuwait",
+    "name_long": "Kuwait",
+    "pop_est": 4207083,
+    "adm0_a3": "KWT",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 47.313999,
+    "label_y": 29.413628
+  },
+  {
+    "name": "Timor-Leste",
+    "name_long": "Timor-Leste",
+    "pop_est": 1293119,
+    "adm0_a3": "TLS",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 125.854679,
+    "label_y": -8.803705
+  },
+  {
+    "name": "Brunei",
+    "name_long": "Brunei Darussalam",
+    "pop_est": 433285,
+    "adm0_a3": "BRN",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 114.551943,
+    "label_y": 4.448298
+  },
+  {
+    "name": "Myanmar",
+    "name_long": "Myanmar",
+    "pop_est": 54045420,
+    "adm0_a3": "MMR",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 95.804497,
+    "label_y": 21.573855
+  },
+  {
+    "name": "Bangladesh",
+    "name_long": "Bangladesh",
+    "pop_est": 163046161,
+    "adm0_a3": "BGD",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 89.684963,
+    "label_y": 24.214956
+  },
+  {
+    "name": "Afghanistan",
+    "name_long": "Afghanistan",
+    "pop_est": 38041754,
+    "adm0_a3": "AFG",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 66.496586,
+    "label_y": 34.164262
+  },
+  {
+    "name": "Turkmenistan",
+    "name_long": "Turkmenistan",
+    "pop_est": 5942089,
+    "adm0_a3": "TKM",
+    "region_un": "Asia",
+    "subregion": "Central Asia",
+    "label_x": 58.676647,
+    "label_y": 39.855246
+  },
+  {
+    "name": "Jordan",
+    "name_long": "Jordan",
+    "pop_est": 10101694,
+    "adm0_a3": "JOR",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 36.375991,
+    "label_y": 30.805025
+  },
+  {
+    "name": "Nepal",
+    "name_long": "Nepal",
+    "pop_est": 28608710,
+    "adm0_a3": "NPL",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 83.639914,
+    "label_y": 28.297925
+  },
+  {
+    "name": "Yemen",
+    "name_long": "Yemen",
+    "pop_est": 29161922,
+    "adm0_a3": "YEM",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 45.874383,
+    "label_y": 15.328226
+  },
+  {
+    "name": "Hong Kong",
+    "name_long": "Hong Kong",
+    "pop_est": 7507400,
+    "adm0_a3": "HKG",
+    "region_un": "Asia",
+    "subregion": "Eastern Asia",
+    "label_x": 114.097769,
+    "label_y": 22.448829
+  },
+  {
+    "name": "N. Cyprus",
+    "name_long": "Northern Cyprus",
+    "pop_est": 326000,
+    "adm0_a3": "CYN",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 33.692434,
+    "label_y": 35.216071
+  },
+  {
+    "name": "Cyprus U.N. Buffer Zone",
+    "name_long": "Cyprus U.N. Buffer Zone",
+    "pop_est": 10000,
+    "adm0_a3": "CNM",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 33.288134,
+    "label_y": 35.140713
+  },
+  {
+    "name": "Siachen Glacier",
+    "name_long": "Siachen Glacier",
+    "pop_est": 6000,
+    "adm0_a3": "KAS",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 77.129553,
+    "label_y": 35.340606
+  },
+  {
+    "name": "Baikonur",
+    "name_long": "Baikonur Cosmodrome",
+    "pop_est": 36175,
+    "adm0_a3": "KAB",
+    "region_un": "Asia",
+    "subregion": "Central Asia",
+    "label_x": 63.383897,
+    "label_y": 45.978332
+  },
+  {
+    "name": "Akrotiri",
+    "name_long": "Akrotiri",
+    "pop_est": 7850,
+    "adm0_a3": "WSB",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 32.979025,
+    "label_y": 34.60083
+  },
+  {
+    "name": "Philippines",
+    "name_long": "Philippines",
+    "pop_est": 108116615,
+    "adm0_a3": "PHL",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 122.465,
+    "label_y": 11.198
+  },
+  {
+    "name": "Sri Lanka",
+    "name_long": "Sri Lanka",
+    "pop_est": 21803000,
+    "adm0_a3": "LKA",
+    "region_un": "Asia",
+    "subregion": "Southern Asia",
+    "label_x": 80.704823,
+    "label_y": 7.581097
+  },
+  {
+    "name": "Taiwan",
+    "name_long": "Taiwan",
+    "pop_est": 23568378,
+    "adm0_a3": "TWN",
+    "region_un": "Asia",
+    "subregion": "Eastern Asia",
+    "label_x": 120.868204,
+    "label_y": 23.652408
+  },
+  {
+    "name": "Japan",
+    "name_long": "Japan",
+    "pop_est": 126264931,
+    "adm0_a3": "JPN",
+    "region_un": "Asia",
+    "subregion": "Eastern Asia",
+    "label_x": 138.44217,
+    "label_y": 36.142538
+  },
+  {
+    "name": "Indian Ocean Ter.",
+    "name_long": "Indian Ocean Territories",
+    "pop_est": 2387,
+    "adm0_a3": "IOA",
+    "region_un": "Africa",
+    "subregion": "Seven seas (open ocean)",
+    "label_x": 105.67259,
+    "label_y": -10.490789
+  },
+  {
+    "name": "Singapore",
+    "name_long": "Singapore",
+    "pop_est": 5703569,
+    "adm0_a3": "SGP",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 103.816925,
+    "label_y": 1.366587
+  },
+  {
+    "name": "Bahrain",
+    "name_long": "Bahrain",
+    "pop_est": 1641172,
+    "adm0_a3": "BHR",
+    "region_un": "Asia",
+    "subregion": "Western Asia",
+    "label_x": 50.554816,
+    "label_y": 26.055972
+  },
+  {
+    "name": "Spratly Is.",
+    "name_long": "Spratly Islands",
+    "pop_est": 100,
+    "adm0_a3": "PGA",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 115.81956,
+    "label_y": 10.72954
+  },
+  {
+    "name": "Macao",
+    "name_long": "Macao",
+    "pop_est": 640445,
+    "adm0_a3": "MAC",
+    "region_un": "Asia",
+    "subregion": "Eastern Asia",
+    "label_x": 113.556038,
+    "label_y": 22.129735
+  },
+  {
+    "name": "Scarborough Reef",
+    "name_long": "Scarborough Reef",
+    "pop_est": 0,
+    "adm0_a3": "SCR",
+    "region_un": "Asia",
+    "subregion": "South-Eastern Asia",
+    "label_x": 117.753812,
+    "label_y": 15.152039
+  }
+]

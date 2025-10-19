@@ -1,16 +1,9 @@
 import { file } from "bun";
 
-// Type definitions
 interface CountryProperties {
 	name_long: string;
 	region_un: string;
 	[key: string]: any;
-}
-
-interface Country {
-	properties: CountryProperties;
-	geometry: any;
-	type: string;
 }
 
 interface CountryName {
@@ -18,10 +11,9 @@ interface CountryName {
 	continent: string;
 }
 
-// Load GeoJSON data
-const dataFilePath = "data/world.geojson.json";
+const dataFilePath = "data/world-data-only.json";
 const dataFile = file(dataFilePath);
-const data: Country[] = await dataFile.json();
+const data: CountryProperties[] = await dataFile.json();
 
 // Utility function to remove accents (replaces unidecode)
 function removeAccents(str: string): string {
@@ -29,9 +21,25 @@ function removeAccents(str: string): string {
 }
 
 // Get random country
-function getRandomCountry(countries: Country[]): Country {
+function getRandomCountry(countries: CountryProperties[]): CountryProperties {
 	const index = Math.floor(Math.random() * countries.length);
 	return countries[index]!;
+}
+
+function getCountryNames(countries: CountryProperties[]): CountryName[] {
+	return countries.map(country => ({
+		name_long: country.name_long,
+		continent: country.region_un,
+	}));
+}
+
+function findCountryByName(countries: CountryProperties[], countryName: string): CountryProperties | undefined {
+	return countries.find(c => {
+		const normalizedName = removeAccents(
+			c.name_long.replace(/\s/g, "").replace(/'/g, "")
+		).toLowerCase();
+		return normalizedName === countryName.toLowerCase();
+	});
 }
 
 // Get country names
@@ -96,7 +104,7 @@ const server = Bun.serve({
 					);
 				}
 
-				return Response.json(targetCountry.properties, { headers: corsHeaders });
+				return Response.json(targetCountry, { headers: corsHeaders });
 			}
 
 			// 404 for unmatched routes

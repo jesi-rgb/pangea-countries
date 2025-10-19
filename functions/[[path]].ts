@@ -1,4 +1,4 @@
-import worldData from '../data/world.geojson.json';
+import worldData from '../data/world-data-only.json';
 
 interface CountryProperties {
 	name_long: string;
@@ -6,34 +6,28 @@ interface CountryProperties {
 	[key: string]: any;
 }
 
-interface Country {
-	properties: CountryProperties;
-	geometry: any;
-	type: string;
-}
-
-const data: Country[] = worldData as Country[];
+const data: CountryProperties[] = worldData as CountryProperties[];
 
 function removeAccents(str: string): string {
 	return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
-function getRandomCountry(countries: Country[]): Country {
+function getRandomCountry(countries: CountryProperties[]): CountryProperties {
 	const index = Math.floor(Math.random() * countries.length);
 	return countries[index]!;
 }
 
-function getCountryNames(countries: Country[]): { name_long: string; continent: string }[] {
+function getCountryNames(countries: CountryProperties[]): { name_long: string; continent: string }[] {
 	return countries.map(country => ({
-		name_long: country.properties.name_long,
-		continent: country.properties.region_un,
+		name_long: country.name_long,
+		continent: country.region_un,
 	}));
 }
 
-function findCountryByName(countries: Country[], countryName: string): Country | undefined {
+function findCountryByName(countries: CountryProperties[], countryName: string): CountryProperties | undefined {
 	return countries.find(c => {
 		const normalizedName = removeAccents(
-			c.properties.name_long.replace(/\s/g, "").replace(/'/g, "")
+			c.name_long.replace(/\s/g, "").replace(/'/g, "")
 		).toLowerCase();
 		return normalizedName === countryName.toLowerCase();
 	});
@@ -75,7 +69,7 @@ export async function onRequest(context: { request: Request }): Promise<Response
 				);
 			}
 
-			return Response.json(targetCountry.properties, { headers: corsHeaders });
+			return Response.json(targetCountry, { headers: corsHeaders });
 		}
 
 		return Response.json(
