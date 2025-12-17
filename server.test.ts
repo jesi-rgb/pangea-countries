@@ -8,6 +8,14 @@ interface CountryProperties {
 	[key: string]: any;
 }
 
+interface CountryFeature {
+	properties: CountryProperties;
+	geometry: {
+		type: string;
+		coordinates: any;
+	};
+}
+
 interface CountryName {
 	name_long: string;
 	continent: string;
@@ -40,26 +48,34 @@ afterAll(() => {
 
 describe("API Endpoints", () => {
 	describe("GET /random_country", () => {
-		test("should return a country object with correct shape", async () => {
+		test("should return a country feature with correct shape", async () => {
 			const response = await fetch(`${BASE_URL}/random_country`);
 			expect(response.status).toBe(200);
 			
-			const country = await response.json() as CountryProperties;
+			const feature = await response.json() as CountryFeature;
 			
-			// Check required fields exist
-			expect(country).toHaveProperty("name_long");
-			expect(country).toHaveProperty("region_un");
-			expect(country).toHaveProperty("adm0_a3");
+			// Check feature structure
+			expect(feature).toHaveProperty("properties");
+			expect(feature).toHaveProperty("geometry");
+			
+			// Check properties
+			expect(feature.properties).toHaveProperty("name_long");
+			expect(feature.properties).toHaveProperty("region_un");
+			expect(feature.properties).toHaveProperty("adm0_a3");
+			
+			// Check geometry
+			expect(feature.geometry).toHaveProperty("type");
+			expect(feature.geometry).toHaveProperty("coordinates");
 			
 			// Check types
-			expect(typeof country.name_long).toBe("string");
-			expect(typeof country.region_un).toBe("string");
-			expect(typeof country.adm0_a3).toBe("string");
+			expect(typeof feature.properties.name_long).toBe("string");
+			expect(typeof feature.properties.region_un).toBe("string");
+			expect(typeof feature.properties.adm0_a3).toBe("string");
 			
 			// Check values are not empty
-			expect(country.name_long.length).toBeGreaterThan(0);
-			expect(country.region_un.length).toBeGreaterThan(0);
-			expect(country.adm0_a3.length).toBe(3);
+			expect(feature.properties.name_long.length).toBeGreaterThan(0);
+			expect(feature.properties.region_un.length).toBeGreaterThan(0);
+			expect(feature.properties.adm0_a3.length).toBe(3);
 		});
 
 		test("should have CORS headers", async () => {
@@ -113,16 +129,18 @@ describe("API Endpoints", () => {
 	});
 
 	describe("GET /country/:id", () => {
-		test("should return country by valid ID", async () => {
+		test("should return country feature by valid ID", async () => {
 			const response = await fetch(`${BASE_URL}/country/USA`);
 			expect(response.status).toBe(200);
 			
-			const country = await response.json() as CountryProperties;
+			const feature = await response.json() as CountryFeature;
 			
-			expect(country).toHaveProperty("name_long");
-			expect(country).toHaveProperty("adm0_a3");
-			expect(country.adm0_a3).toBe("USA");
-			expect(typeof country.name_long).toBe("string");
+			expect(feature).toHaveProperty("properties");
+			expect(feature).toHaveProperty("geometry");
+			expect(feature.properties).toHaveProperty("name_long");
+			expect(feature.properties).toHaveProperty("adm0_a3");
+			expect(feature.properties.adm0_a3).toBe("USA");
+			expect(typeof feature.properties.name_long).toBe("string");
 		});
 
 		test("should return 404 for invalid ID", async () => {
@@ -138,28 +156,30 @@ describe("API Endpoints", () => {
 			const response = await fetch(`${BASE_URL}/country/usa`);
 			expect(response.status).toBe(200);
 			
-			const country = await response.json() as CountryProperties;
-			expect(country.adm0_a3).toBe("USA");
+			const feature = await response.json() as CountryFeature;
+			expect(feature.properties.adm0_a3).toBe("USA");
 		});
 	});
 
 	describe("GET /info/:country", () => {
-		test("should return country by name", async () => {
+		test("should return country feature by name", async () => {
 			const response = await fetch(`${BASE_URL}/info/Australia`);
 			expect(response.status).toBe(200);
 			
-			const country = await response.json() as CountryProperties;
+			const feature = await response.json() as CountryFeature;
 			
-			expect(country).toHaveProperty("name_long");
-			expect(country.name_long).toContain("Australia");
+			expect(feature).toHaveProperty("properties");
+			expect(feature).toHaveProperty("geometry");
+			expect(feature.properties).toHaveProperty("name_long");
+			expect(feature.properties.name_long).toContain("Australia");
 		});
 
 		test("should handle country names with spaces removed", async () => {
 			const response = await fetch(`${BASE_URL}/info/UnitedStates`);
 			expect(response.status).toBe(200);
 			
-			const country = await response.json() as CountryProperties;
-			expect(country.name_long).toContain("United States");
+			const feature = await response.json() as CountryFeature;
+			expect(feature.properties.name_long).toContain("United States");
 		});
 
 		test("should return 404 for invalid country name", async () => {

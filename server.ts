@@ -24,8 +24,7 @@ console.log(`Loading data from: ${dataFilePath}`);
 const dataFile = file(dataFilePath);
 console.log(`Data file exists: ${await dataFile.exists()}`);
 const geoJsonData: CountryFeature[] = await dataFile.json();
-const data: CountryProperties[] = geoJsonData.map(feature => feature.properties);
-console.log(`Loaded ${data.length} countries`);
+console.log(`Loaded ${geoJsonData.length} countries`);
 
 // Utility function to remove accents (replaces unidecode)
 function removeAccents(str: string): string {
@@ -33,29 +32,29 @@ function removeAccents(str: string): string {
 }
 
 // Get random country
-function getRandomCountry(countries: CountryProperties[]): CountryProperties {
-	const index = Math.floor(Math.random() * countries.length);
-	return countries[index]!;
+function getRandomCountry(features: CountryFeature[]): CountryFeature {
+	const index = Math.floor(Math.random() * features.length);
+	return features[index]!;
 }
 
-function getCountryNames(countries: CountryProperties[]): CountryName[] {
-	return countries.map(country => ({
-		name_long: country.name_long,
-		continent: country.region_un,
+function getCountryNames(features: CountryFeature[]): CountryName[] {
+	return features.map(feature => ({
+		name_long: feature.properties.name_long,
+		continent: feature.properties.region_un,
 	}));
 }
 
-function findCountryByName(countries: CountryProperties[], countryName: string): CountryProperties | undefined {
-	return countries.find(c => {
+function findCountryByName(features: CountryFeature[], countryName: string): CountryFeature | undefined {
+	return features.find(f => {
 		const normalizedName = removeAccents(
-			c.name_long.replace(/\s/g, "").replace(/'/g, "")
+			f.properties.name_long.replace(/\s/g, "").replace(/'/g, "")
 		).toLowerCase();
 		return normalizedName === countryName.toLowerCase();
 	});
 }
 
-function findCountryById(countries: CountryProperties[], countryId: string): CountryProperties | undefined {
-	return countries.find(c => c.adm0_a3 === countryId.toUpperCase());
+function findCountryById(features: CountryFeature[], countryId: string): CountryFeature | undefined {
+	return features.find(f => f.properties.adm0_a3 === countryId.toUpperCase());
 }
 
 // Create server
@@ -80,20 +79,20 @@ const server = Bun.serve({
 		try {
 			// Route: /random_country
 			if (pathname === "/random_country" && req.method === "GET") {
-				const country = getRandomCountry(data);
+				const country = getRandomCountry(geoJsonData);
 				return Response.json(country, { headers: corsHeaders });
 			}
 
 			// Route: /country_names
 			if (pathname === "/country_names" && req.method === "GET") {
-				const names = getCountryNames(data);
+				const names = getCountryNames(geoJsonData);
 				return Response.json(names, { headers: corsHeaders });
 			}
 
 			// Route: /country/<id>
 			if (pathname.startsWith("/country/") && req.method === "GET") {
 				const countryId = pathname.slice(9);
-				const targetCountry = findCountryById(data, countryId);
+				const targetCountry = findCountryById(geoJsonData, countryId);
 
 				if (!targetCountry) {
 					return Response.json(
@@ -108,7 +107,7 @@ const server = Bun.serve({
 			// Route: /info/<country>
 			if (pathname.startsWith("/info/") && req.method === "GET") {
 				const country = pathname.slice(6); // Remove "/info/"
-				const targetCountry = findCountryByName(data, country);
+				const targetCountry = findCountryByName(geoJsonData, country);
 
 				if (!targetCountry) {
 					return Response.json(
