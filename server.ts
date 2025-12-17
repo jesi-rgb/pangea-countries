@@ -23,7 +23,8 @@ const dataFilePath = "./data/world.geojson.json";
 console.log(`Loading data from: ${dataFilePath}`);
 const dataFile = file(dataFilePath);
 console.log(`Data file exists: ${await dataFile.exists()}`);
-const data: CountryProperties[] = await dataFile.json();
+const geoJsonData: CountryFeature[] = await dataFile.json();
+const data: CountryProperties[] = geoJsonData.map(feature => feature.properties);
 console.log(`Loaded ${data.length} countries`);
 
 // Utility function to remove accents (replaces unidecode)
