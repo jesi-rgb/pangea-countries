@@ -11,9 +11,12 @@ interface CountryName {
 	continent: string;
 }
 
-const dataFilePath = "data/world-data-only.json";
+const dataFilePath = "./data/world-data-only.json";
+console.log(`Loading data from: ${dataFilePath}`);
 const dataFile = file(dataFilePath);
+console.log(`Data file exists: ${await dataFile.exists()}`);
 const data: CountryProperties[] = await dataFile.json();
+console.log(`Loaded ${data.length} countries`);
 
 // Utility function to remove accents (replaces unidecode)
 function removeAccents(str: string): string {
@@ -124,3 +127,16 @@ const server = Bun.serve({
 });
 
 console.log(`Server running on http://localhost:${server.port}`);
+
+// Keep the process alive and handle signals gracefully
+process.on('SIGTERM', () => {
+	console.log('Received SIGTERM, shutting down gracefully');
+	server.stop();
+	process.exit(0);
+});
+
+process.on('SIGINT', () => {
+	console.log('Received SIGINT, shutting down gracefully');
+	server.stop();
+	process.exit(0);
+});

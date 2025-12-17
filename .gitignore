@@ -34,3 +34,21 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .DS_Store
 data/world.geojson.json
 .wrangler/
+
+# Unikraft/Kraft build artifacts and caches
+.unikraft/
+.kraftrc
+.kraftignore
+build/
+rootfs-cache/
+*.cpio
+*.img
+*.iso
+*.kernel
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+*.dockerfile
+Dockerfile.dev
+.docker/
