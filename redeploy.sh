@@ -26,6 +26,6 @@ echo ""
 # fi
 
 echo "Deploying new instance..."
-kraft cloud deploy -M 800 -g pangea-countries .
+kraft cloud deploy -M 800 -g pangea-countries --rollout=remove .
 
 echo "Deployment complete!"
