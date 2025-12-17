@@ -6,12 +6,20 @@ interface CountryProperties {
 	[key: string]: any;
 }
 
+interface CountryFeature {
+	properties: CountryProperties;
+	geometry: {
+		type: string;
+		coordinates: any;
+	};
+}
+
 interface CountryName {
 	name_long: string;
 	continent: string;
 }
 
-const dataFilePath = "./data/world-data-only.json";
+const dataFilePath = "./data/world.geojson.json";
 console.log(`Loading data from: ${dataFilePath}`);
 const dataFile = file(dataFilePath);
 console.log(`Data file exists: ${await dataFile.exists()}`);
